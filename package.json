@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run build:lib && npm run build:component ",
+    "build": "npm run build:lib && npm run build:component && npm run build:style",
     "build:lib": "vue-cli-service build --target lib --name vue-ui-fix --dest lib src/index.js",
     "build:component": "webpack --config build/webpack.component.js",
     "build:style": "gulp --gulpfile build/gulp.style.js",

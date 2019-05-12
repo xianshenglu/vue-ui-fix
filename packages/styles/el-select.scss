@@ -1,0 +1,19 @@
+@import 'mixins/mixins';
+@import 'common/var';
+@include b(el-select) {
+  font-size: inherit;
+}
+
+@include e(check-all-btn) {
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: 0px;
+  padding-left: 18px;
+  line-height: 34px;
+  font-size: 12px;
+}
+
+/*reset*/
+.el-checkbox__label {
+  font-size: inherit;
+}

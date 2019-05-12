@@ -23,7 +23,8 @@ import { hyphenToPascal } from '../../../src/utils'
 export default {
   name: 'VfElSelect',
   components: {
-    Checkbox, Select, Option
+    ElCheckbox: Checkbox,
+    ElSelect: Select
   },
   props: {
     value: {

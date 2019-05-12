@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-ui-fix --dest lib src/index.js",
+    "build": "npm run build:lib && npm run build:component ",
+    "build:lib": "vue-cli-service build --target lib --name vue-ui-fix --dest lib src/index.js",
+    "build:component": "webpack --config build/webpack.component.js",
     "lint": "vue-cli-service lint",
     "clean": "rimraf lib && rimraf test/**/coverage",
     "test:unit": "vue-cli-service test:unit"
@@ -31,7 +33,10 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "webpack-cli": "^3.3.2",
+    "webpack-node-externals": "^1.7.2"
   }
 }

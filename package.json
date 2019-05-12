@@ -12,6 +12,9 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
+  "peerDependencies": {
+    "element-ui": "^2.4.7"
+  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",

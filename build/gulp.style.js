@@ -13,5 +13,5 @@ exports.default = function () {
       })
     )
     .pipe(cleanCSS())
-    .pipe(gulp.dest('../lib/'))
+    .pipe(gulp.dest('../lib/components/'))
 }

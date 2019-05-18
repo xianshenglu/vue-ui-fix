@@ -1,5 +1,8 @@
+import '../packages/styles/index.scss'
+
 import ElSelect from '../packages/el-select'
 import HelloWorld from '../packages/hello-world'
+
 const components = [ElSelect, HelloWorld]
 const install = function (Vue, opts = {}) {
   components.forEach(component => {

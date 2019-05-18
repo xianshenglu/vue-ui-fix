@@ -2,6 +2,12 @@
   "name": "vue-ui-fix",
   "version": "0.1.0",
   "private": true,
+  "main": "lib/vue-ui-fix.common.js",
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:lib && npm run build:component && npm run build:style",

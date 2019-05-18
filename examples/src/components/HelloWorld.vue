@@ -4,6 +4,7 @@
     <vf-hello-world></vf-hello-world>
     <vf-el-select
       multiple
+      collapse-tags
       v-model="values"
     >
       <el-option

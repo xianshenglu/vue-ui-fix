@@ -7,6 +7,15 @@
         "libraryName": "element-ui",
         "styleLibraryName": "theme-chalk"
       }
+    ],
+    [
+      "component",
+      {
+        "libraryName": "vue-ui-fix",
+        "libDir": "lib/components",
+        "style": "index.css"
+      },
+      "vue-ui-fix"
     ]
   ]
 }

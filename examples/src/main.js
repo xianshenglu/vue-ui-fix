@@ -3,15 +3,15 @@ import App from './App.vue'
 
 import { Select, Option, Checkbox } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import VueUiFix from 'vue-ui-fix'
-import 'vue-ui-fix/lib/vue-ui-fix.css'
+import { ElSelect, HelloWorld } from 'vue-ui-fix'
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Checkbox)
 
-Vue.use(VueUiFix)
-// Vue.use(ElSelect)
-// Vue.use(HelloWorld)
+Vue.use(ElSelect)
+Vue.use(HelloWorld)
+// todo remove
+// window.vue = Vue
 Vue.config.productionTip = false
 
 new Vue({

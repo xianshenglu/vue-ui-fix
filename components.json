@@ -1,3 +1,4 @@
 {
-  "el-select": "./packages/el-select/index.js"
+  "el-select": "./packages/el-select/index.js",
+  "hello-world": "./packages/hello-world/index.js"
 }

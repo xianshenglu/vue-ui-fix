@@ -4,6 +4,8 @@ let Components = require('../components.json')
 
 let externals = {}
 
+// todo correct?
+
 Object.keys(Components).forEach(function (key) {
   externals[`element-ui/packages/${key}`] = `element-ui/lib/${key}`
 })
@@ -31,3 +33,4 @@ exports.vue = {
   commonjs2: 'vue',
   amd: 'vue'
 }
+exports.jsexclude = /node_modules/

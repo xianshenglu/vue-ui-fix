@@ -1,12 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import { Select, Option, Checkbox } from 'element-ui'
+import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import { ElSelect, HelloWorld } from 'vue-ui-fix'
-Vue.use(Select)
-Vue.use(Option)
-Vue.use(Checkbox)
+
+Vue.use(ElementUI)
 
 Vue.use(ElSelect)
 Vue.use(HelloWorld)

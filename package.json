@@ -14,6 +14,7 @@
     "build:lib": "vue-cli-service build --target lib --name vue-ui-fix --dest lib src/index.js",
     "build:component": "webpack --config build/webpack.component.js",
     "build:style": "gulp --gulpfile build/gulp.style.js",
+    "analyze:lib": "vue-cli-service build --report --target lib --name vue-ui-fix --dest lib src/index.js",
     "lint": "vue-cli-service lint",
     "clean": "rimraf lib && rimraf test/**/coverage",
     "test:unit": "vue-cli-service test:unit"

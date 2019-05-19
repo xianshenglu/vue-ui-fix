@@ -13,6 +13,7 @@ const install = function (Vue, opts = {}) {
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
+// ? remove element-ui when build together?
 export default {
   install,
   ElSelect,

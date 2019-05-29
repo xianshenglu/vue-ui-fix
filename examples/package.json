@@ -11,7 +11,8 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.4.7",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-ui-fix": "file:../vue-ui-fix-0.1.0.tgz"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",
